@@ -2,7 +2,7 @@
 ./libs/scapy-python3
 ./libs/pyre
 ./libs/python-tc
-#./libs/coapthon
+./libs/CoAPthon3
 ./libs/aiocoap
 ./upis
 ./framework
@@ -24,6 +24,7 @@
 ./agent_modules/net_linux
 ./agent_modules/gnuradio
 ./agent_modules/contiki
+./agent_modules/coapthon
 ./agent_modules/iris
 ./examples
 ./tests

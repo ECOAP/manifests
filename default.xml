@@ -9,6 +9,9 @@
   <remote  name="wirelesstestbedacademy"
            fetch="https://github.com/WirelessTestbedsAcademy/" />
 
+  <remote  name="ecoap"
+           fetch="ssh://git@github.com/ECOAP/" />
+
   <default revision="master"
            remote="origin"
            sync-j="4" />
@@ -24,7 +27,7 @@
   <project name="pyre" path="libs/pyre"/>
   <project name="python-tc" path="libs/python-tc"/>
   <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
-  <!-- <project name="Tanganelli/CoAPthon" remote="github" path="libs/coapthon"/> -->
+  <project name="CoAPthon3" remote="ecoap" path="libs/CoAPthon3"/> -->
   <project name="pruckebusch/aiocoap" remote="github" path="libs/aiocoap"/>
   <!-- Framework Modules -->
   <project name="module_discovery" path="framework_modules/discovery"/>
@@ -45,11 +48,12 @@
   <project name="module_net_linux" path="agent_modules/net_linux"/>
   <project name="module_gnuradio" path="agent_modules/gnuradio"/>
   <project name="module_spectral_scan_ath9k" path="agent_modules/spectral_scan_ath9k"/>
-  <project name="module_contiki" path="agent_modules/contiki"/>
+  <project name="module_contiki" path="agent_modules/contiki" remote="ecoap"/>
   <project name="module_iris" path="agent_modules/iris"/>
   <project name="module_lte" path="agent_modules/lte"/>
+  <project name="module_coapthon" path="agent_modules/coapthon"/>
   <!-- Examples -->
-  <project name="examples" path="examples"/>
+  <project name="examples" path="examples" remote="ecoap"/>
   <!-- Tests -->
   <project name="tests" path="tests"/>
   <!-- Other -->
