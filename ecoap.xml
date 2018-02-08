@@ -26,7 +26,8 @@
   <project name="stream_pipe" path="libs/stream_pipe"/>
   <project name="pyre" path="libs/pyre"/>
   <project name="python-tc" path="libs/python-tc"/>
-  <project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>
+  <!--<project name="phaethon/scapy" remote="github" path="libs/scapy-python3"/>-->
+  <project name="scapy" remote="ecoap" path="libs/scapy-python3"/>
   <project name="CoAPthon3" remote="ecoap" path="libs/CoAPthon3"/> -->
   <project name="pruckebusch/aiocoap" remote="github" path="libs/aiocoap"/>
   <!-- Framework Modules -->
